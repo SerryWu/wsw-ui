@@ -36,4 +36,4 @@ demo[预览地址](https://serrywu.github.io/wsw-ui/doc/index.html)
 
 二维码预览
 
-![](https://serrywu.github.io/wsw-ui/demo二维码.png)
+![add image](https://serrywu.github.io/wsw-ui/demo二维码.png)
