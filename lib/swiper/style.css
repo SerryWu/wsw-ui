@@ -1,0 +1,6 @@
+.sw_button{display:inline-block;padding:3px 6px;background:#409EFF;color:#fff;padding:5px 10px;border-radius:2px}
+
+.sw_container{width:100%;overflow:hidden;position:relative}.sw_container .sw_swiper_area{display:flex;width:100%}.sw_container .sw_swiper_area.disable{touch-action:none}.sw_container .sw_swiper_area.vertical{flex-direction:column}.sw_container .sw-swipe-item{display:block;flex-shrink:0;width:100%;border-right:1px solid #ddd}.sw_container .sw_indicator{position:absolute;bottom:5px;display:flex;justify-content:center;width:100%}.sw_container .sw_indicator.vertical{width:10px;height:100%;bottom:0;left:auto;right:5px;flex-direction:column}.sw_container .sw_indicator.vertical .sw_dot{margin:5px 0}.sw_container .sw_indicator .sw_dot{width:6px;height:6px;line-height:0;background-color:#ebedf0;opacity:0.3;border-radius:50%;margin:0 5px;border:0px}.sw_container .sw_indicator .sw_dot.active{opacity:1}
+
+
+/*# sourceMappingURL=style.css.map*/

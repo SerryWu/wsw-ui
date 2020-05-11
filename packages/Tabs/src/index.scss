@@ -1,0 +1,35 @@
+
+.sw_nav { 
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    user-select: none;
+    -webkit-overflow-scrolling:touch;
+    -webkit-tap-highlight-color: transparent;
+    &::-webkit-scrollbar{
+        background-color:transparent;
+    }
+    div { 
+        flex:1 0 0;
+        height: 40px;
+        line-height: 40px;
+        &.scrollable { 
+            flex: 0 0 22%;
+        }
+        &.disabled {
+            color: #c8c9cc;
+            cursor: not-allowed;
+        }
+    }
+    .sw_line { 
+        position: absolute;
+        height: 3px;
+        bottom:0;
+        left:0;
+        border-radius: 1.5px;
+        background-color: #409EFF;
+        transition: all .2s;
+    }
+}

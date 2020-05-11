@@ -1,0 +1,37 @@
+.sw_toast_wrapper { 
+    border-radius: 2px;
+    padding: 0px 10px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate3d(-50%,-50%,0);
+    max-width: 70%;
+    white-space: pre-wrap;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+    width: fit-content;
+    & span {
+        color:#fff;
+        font-size: 14px;
+    }
+}
+
+.sw_icon { 
+    padding: 15px;
+    padding-bottom: 5px;
+    .loading { 
+        margin-bottom: 10px;
+    }
+}
+
+.sw_toast-enter, .sw_toast-leave-to {
+    opacity: 0;
+}
