@@ -1,11 +1,11 @@
 <template>
   <div id="list">
     <ul>
-      <li @click="routeTo('TabDemo')">tab标签demo</li>
-      <li @click="routeTo('SwiperDemo')">swiper组件demo</li>
-      <li @click="routeTo('LoadingDemo')">Loading组件demo</li>
-      <li @click="routeTo('PopupDemo')">PopupDemo组件demo</li>
-      <li @click="routeTo('ToastDemo')">ToastDemo组件demo</li>
+      <li @click="routeTo('TabDemo')"><span>tabs组件demo</span> <span>></span> </li>
+      <li @click="routeTo('SwiperDemo')"><span>swiper组件demo</span><span>></span> </li>
+      <li @click="routeTo('LoadingDemo')"><span>Loading组件demo</span><span>></span></li>
+      <li @click="routeTo('PopupDemo')"><span>PopupDemo组件demo</span><span>></span></li>
+      <li @click="routeTo('ToastDemo')"><span>ToastDemo组件demo</span><span>></span></li>
     </ul>
     
   </div>
@@ -33,6 +33,15 @@ export default {
 </script>
 
 <style>
+#list ul { 
+
+}
+#list li { 
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 ul {
   margin:0;
   padding: 0;

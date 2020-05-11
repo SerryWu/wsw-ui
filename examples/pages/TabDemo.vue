@@ -3,9 +3,9 @@
     <section>
         基础用法
     </section>
-    <x-button v-for="(item,key) in 3" @click.native="changeActive(key)" :key="key">
+    <sw-button v-for="(item,key) in 3" @click.native="changeActive(key)" :key="key">
       {{item}}
-    </x-button>
+    </sw-button>
     <sw-tabs v-model="active">
         <sw-tab  v-for="(item,key) in targetNum" :key="key" v-text="key+1" :title="`标签${key+1}`"></sw-tab>
     </sw-tabs>
