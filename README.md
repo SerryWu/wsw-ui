@@ -19,8 +19,8 @@ import {
   Tab
 } from 'wsw-ui'
 
-Vue.component(Tabs.name, Select)
-Vue.component(Tab.name, Button)
+Vue.component(Tabs.name, Tabs)
+Vue.component(Tab.name, Tab)
 ```
 
 ```javascript
@@ -32,3 +32,8 @@ module.exports = {
 
 ```
 
+demo[预览地址](https://serrywu.github.io/wsw-ui/doc/index.html)
+
+二维码预览
+
+![](E:\wsw-ui\demo二维码.png)
